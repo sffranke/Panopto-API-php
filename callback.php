@@ -37,7 +37,7 @@ if (isset($_GET['code'])) {
 
             // Zugriff auf geschützte Ressourcen: Inhalte eines Ordners auflisten
             $folder_id = urlencode('d1d30..........0072656b');
-            $folder_url = "https://vcm.uni-kl.de/Panopto/api/v1/folders/$folder_id/sessions";
+            $folder_url = "https://v...../Panopto/api/v1/folders/$folder_id/sessions";
 
             $ch = curl_init($folder_url);
             curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
